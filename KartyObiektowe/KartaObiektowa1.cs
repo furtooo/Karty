@@ -21,7 +21,7 @@ namespace ConsoleApp1
 		}
 		public void setNazwa()
 		{
-			Console.WriteLine("nazwa?")
+			Console.WriteLine("nazwa?");
 		}
 	}
 
@@ -31,7 +31,7 @@ namespace ConsoleApp1
 		public double cena;
 		public void setTyp()
 		{
-			Console.WriteLine("typ?")
+			Console.WriteLine("typ?");
 		}
 		public string getTyp()
 		{
@@ -43,7 +43,7 @@ namespace ConsoleApp1
 		}
 		public void setId()
 		{
-			Console.WriteLine("id?")
+			Console.WriteLine("id?");
 		}
 	}
 
@@ -57,7 +57,7 @@ namespace ConsoleApp1
 		}
 		public void setColor()
 		{
-			Console.WriteLine("kolor?")
+			Console.WriteLine("kolor?");
 		}
 		public string getColor()
 		{
@@ -65,8 +65,8 @@ namespace ConsoleApp1
 		}
 		}
 	class Program {
-		public static void Main(string[] args) {
-			Console.WriteLine("hello world");
+		static void Main(string[] args) {
+			Console.WriteLine("Program dziala");
 		}
 	}
 }
